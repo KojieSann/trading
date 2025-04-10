@@ -136,7 +136,6 @@ ScrollTrigger.create({
   end: "bottom bottom",
   pin: ".stickyText",
   scrub: true,
-  markers: true,
 });
 
 ScrollTrigger.create({
