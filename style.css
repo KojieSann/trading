@@ -441,6 +441,62 @@ footer .title {
   position: absolute;
   bottom: -80px;
 }
+.desc {
+  margin-top: 50px;
+  padding: 30px 70px;
+}
+.desc .title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.desc .title h1 {
+  width: 50%;
+  font-size: 50px;
+  font-family: "Eb Garamond";
+}
+.desc .title button {
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+  background: #a8dadc;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+.desc .container .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 30px;
+  gap: 20px;
+}
+.desc .container .wrapper .card {
+  padding: 10px;
+  border-radius: 10px;
+  background: #f3f2f2;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+.desc .container .wrapper .card .cardDesc {
+  display: flex;
+  flex-direction: column;
+}
+.desc .container .wrapper .card .cardDesc span {
+  font-size: 12px;
+  color: #707070;
+}
+.desc .container .wrapper .card .cardDesc .cardTitle {
+  font-size: 30px;
+  font-family: "Playfair Display";
+  color: black;
+  font-weight: 600;
+}
+.desc .container .wrapper .card p {
+  font-size: 13px;
+  margin-top: 5px;
+}
 @media only screen and (max-width: 600px) {
   .preloader .preloader-text {
     font-family: "EB Garamond", serif;
@@ -521,6 +577,24 @@ footer .title {
   }
   .bank .content {
     width: 100%;
+  }
+  .desc {
+    padding: 10px 30px;
+  }
+  .desc .container {
+    margin-top: 40px;
+  }
+  .desc .container .wrapper {
+    flex-direction: column;
+    padding: 5px 10px;
+    gap: 50px;
+  }
+  .desc .title button {
+    font-size: 12px;
+  }
+  .desc .title h1 {
+    width: 70%;
+    font-size: 20px;
   }
   footer {
     display: none;
